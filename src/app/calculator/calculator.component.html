@@ -1,0 +1,13 @@
+<p>calculator works!</p>
+
+<input type="number" [(ngModel)]="number1">
+<input type="number" [(ngModel)]="number2">
+<select  [(ngModel)]="giatripheptinh">
+    <option value="">--chọn phép tính--</option>
+    <option value="-">-</option>
+    <option value="+">+</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<button (click)="tinhtoan()" >Tính toán</button>
+<input type="text" [(ngModel)]="ketqua">
